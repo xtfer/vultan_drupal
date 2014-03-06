@@ -1,0 +1,30 @@
+# Schema for the configuration files of the Vultan module.
+
+vultan.settings:
+  type: sequence
+  label: 'Vultan MongoDB connections'
+  sequence:
+    - type: mapping
+      label: 'Vultan MongoDB settings'
+      mapping:
+        database:
+          type: string
+          label: 'Database to default to'
+        host:
+          type: string
+          label: 'Host to connect to (defaults to localhost)'
+        port:
+          type: string
+          label: 'Port to use (default to 27017)'
+        user:
+          type: string
+          label: 'Database user'
+        pass:
+          type: string
+          label: 'Database password'
+        config:
+          type: sequence
+          label: 'Configuration options'
+          sequence:
+           - type: string
+             label: 'Configuration option'

@@ -1,0 +1,3 @@
+services:
+  vultan:
+    class: \Drupal\vultan\Service\Hawkmen

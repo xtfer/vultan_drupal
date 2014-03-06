@@ -1,0 +1,7 @@
+default:
+  - database: default
+    host: localhost
+    port: 27017
+    user:
+    pass:
+    options:

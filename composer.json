@@ -1,0 +1,6 @@
+{
+  "require": {
+    "xtfer/vultan": "dev-master"
+  },
+  "minimum-stability": "dev"
+}
